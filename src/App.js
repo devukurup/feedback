@@ -14,8 +14,8 @@ class App extends Component{
       <Form style={{backgroundColor:'green'}}>
         <h1 style={{display:'flex',alignContent:'center',justifyContent:'center'}}>FEEDBACK FORM</h1>
          <Form.Group style={{paddingLeft:'5px'}}controlId="formBasicEmail">
-           <Row>
-           <Col><Form.Label>E-mail <span style={{color:'red'}}>*</span></Form.Label></Col>
+           <Row >
+           <Col ><Form.Label >E-mail <span style={{color:'red'}}>*</span></Form.Label></Col>
              <Col><Form.Control type="email" placeholder="ex: myname@example.com" /></Col>
            </Row>
 
